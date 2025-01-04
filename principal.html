@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="-1" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+
+    <title>SISTEMA ACADEMICO FINANCIERO USB</title>
+  <link href="font-awesome.css" rel="stylesheet">
+    <link href="ionicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+     <link href="perfect-scrollbar.css" rel="stylesheet">
+<link href="jquery.toast.min.css" rel="stylesheet" type="text/css">
+
+ <link href="jquery.dataTables.css" rel="stylesheet">
+
+    <!-- Bracket CSS -->
+    
+<style type="text/css">
+.acceso_rapido
+{
+    text-decoration:none;
+    font-size:16px;
+    font-weight:bold;
+    font-family:arial;
+    color:white;     
+    
+}
+.azul{
+    background-color:#3C6099;
+}
+.azul:hover{
+    background-color:#0E47AB;
+}
+.contenedor_enlaces{
+    padding: 15px 25px;
+    margin:25px;
+    
+}
+</style>
+    <link rel="stylesheet" href="bracket.css" />
+
+
+
+
+
+  </head>
+
+<body><div class="br-header">
+  <div class="br-header-left">
+    <div class="navicon-left hidden-md-down"><a id="btnLeftMenu" href=""><i class="icon ion-navicon-round"></i></a></div>
+    <div class="navicon-left hidden-lg-up"><a id="btnLeftMenuMobile" href=""><i class="icon ion-navicon-round"></i></a></div>
+    <div class="input-group hidden-xs-down wd-170 transition">
+      <input id="searchbox" type="text" class="form-control" placeholder="Buscar">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button"><i class="fa fa-search"></i></button>
+      </span>
+    </div><!-- input-group -->
+  </div><!-- br-header-left -->
+  <div class="br-header-right">
+    <nav class="nav">
+	     <div class="dropdown">
+            <a href="" class="nav-link nav-link-profile" data-toggle="dropdown">
+              <span class="logged-name hidden-md-down">DARLEN MISHEL SIÑANI APAZA  -(alm0)</span>
+              <img src="http://via.placeholder.com/64x64" class="wd-32 rounded-circle" alt="">
+              <span class="square-10 bg-success"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-header wd-200">
+              <ul class="list-unstyled user-profile-nav">
+                
+                <li><a href="http://www.usalesiana.edu.bo"><i class="icon ion-ios-star"></i> Portal Web</a></li>
+                <li><a href="https://teams.microsoft.com/"><i class="icon ion-ios-folder"></i>Teams</a></li>
+                <li><a href="http://correo.usalesiana.edu.bo/"><i class="icon ion-ios-email-outline"></i>Correo Instirucional</a></li>
+                <li><a href="/frida/aa/log/logout1.php"><i class="icon ion-power"></i> Salir</a></li>
+              </ul>
+            </div><!-- dropdown-menu -->
+     </div><!-- dropdown -->
+    
+
+
+    </nav>
+  </div><!-- br-header-right -->
+</div><!-- br-header --><div class="br-logo"><a href="principal.html"><span>[</span><img src="logousb2.png" style="width: 150px;" /><span>]</span></a></div>
+<div class="br-sideleft overflow-y-auto">
+  <label class="sidebar-label pd-x-15 mg-t-20">Menu Principal</label>
+  <div class="br-sideleft-menu">
+        <a href="#" class="br-menu-link ">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-navigate-outline tx-24"></i>
+            <span class="menu-item-label">ALUMNOS</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+    </a><!-- br-menu-link -->
+    <ul class="br-menu-sub nav flex-column">
+                   <li class="nav-item"><a title="Actualizar datos personales" href="/frida/alumnos/subir_fotos_alumnos/" class="nav-link">Actualizar datos personales</a></li>
+                   <li class="nav-item"><a title="Cambiar contraseña (Estudiante)" href="/frida/alumnos/cambiar_password_alumno/" class="nav-link">Cambiar contraseña (Estudiante)</a></li>
+                   <li class="nav-item"><a title="Ver estado alumno" href="/frida/alumnos/ver_bloqueos_alumno/" class="nav-link">Ver estado alumno</a></li>
+             </ul>
+        <a href="#" class="br-menu-link ">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-navigate-outline tx-24"></i>
+            <span class="menu-item-label">AULA VIRTUAL</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+    </a><!-- br-menu-link -->
+    <ul class="br-menu-sub nav flex-column">
+                   <li class="nav-item"><a title="Plan de asignatura" href="/frida/plan_asignatura/estudiante/" class="nav-link">Plan de asignatura</a></li>
+             </ul>
+        <a href="#" class="br-menu-link ">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-navigate-outline tx-24"></i>
+            <span class="menu-item-label">BECAS</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+    </a><!-- br-menu-link -->
+    <ul class="br-menu-sub nav flex-column">
+                   <li class="nav-item"><a title="Formulario de solicitud de becas" href="/frida/alumnos/formulario_solicitud_beca/" class="nav-link">Formulario de solicitud de becas</a></li>
+             </ul>
+        <a href="#" class="br-menu-link ">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-navigate-outline tx-24"></i>
+            <span class="menu-item-label">CALENDARIO</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+    </a><!-- br-menu-link -->
+    <ul class="br-menu-sub nav flex-column">
+                   <li class="nav-item"><a title="Calendario Académico" href="http://saf.usalesiana.edu.bo/frida/virtual/academico/calendario1.php" class="nav-link">Calendario Académico</a></li>
+             </ul>
+        <a href="#" class="br-menu-link ">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-navigate-outline tx-24"></i>
+            <span class="menu-item-label">CORREO ELECTRONICO</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+    </a><!-- br-menu-link -->
+    <ul class="br-menu-sub nav flex-column">
+                   <li class="nav-item"><a title="Obtenga su Contraseña para primer acceso" href="/frida/alumnos/cuenta_office/" class="nav-link">Obtenga su Contraseña para primer acceso</a></li>
+             </ul>
+        <a href="#" class="br-menu-link ">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-navigate-outline tx-24"></i>
+            <span class="menu-item-label">EVALUACIONES</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+    </a><!-- br-menu-link -->
+    <ul class="br-menu-sub nav flex-column">
+                   <li class="nav-item"><a title="A Docente - Servicios" href="/frida/evaluaciones/" class="nav-link">A Docente - Servicios</a></li>
+             </ul>
+        <a href="#" class="br-menu-link ">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-navigate-outline tx-24"></i>
+            <span class="menu-item-label">MALLA CURRICULAR</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+    </a><!-- br-menu-link -->
+    <ul class="br-menu-sub nav flex-column">
+                   <li class="nav-item"><a title="Plan de Estudio" href="/frida/alumnos/planes_estudio/" class="nav-link">Plan de Estudio</a></li>
+                   <li class="nav-item"><a title="Planes de estudio de las carreras" href="/frida/alumnos/ver_plan_estudios_pdf/" class="nav-link">Planes de estudio de las carreras</a></li>
+             </ul>
+        <a href="#" class="br-menu-link ">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-navigate-outline tx-24"></i>
+            <span class="menu-item-label">MAT. PROGRAMADAS</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+    </a><!-- br-menu-link -->
+    <ul class="br-menu-sub nav flex-column">
+                   <li class="nav-item"><a title="Horario Estudiante" href="/frida/alumnos/reporte_horario_alumno/" class="nav-link">Horario Estudiante</a></li>
+                   <li class="nav-item"><a title="Materias por asignar" href="/frida/alumnos/reporte_materias_habilitadas_para_tomar/" class="nav-link">Materias por asignar</a></li>
+                   <li class="nav-item"><a title="Programacion de materias" href="/frida/alumnos/asignacion_materias_alumnos/" class="nav-link">Programacion de materias</a></li>
+                   <li class="nav-item"><a title="Ver Programacion" href="/frida/alumnos/ver_programacion/" class="nav-link">Ver Programacion</a></li>
+             </ul>
+        <a href="#" class="br-menu-link ">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-navigate-outline tx-24"></i>
+            <span class="menu-item-label">PAGOS</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+    </a><!-- br-menu-link -->
+    <ul class="br-menu-sub nav flex-column">
+                   <li class="nav-item"><a title="Pagos en linea" href="/frida/pasarela/" class="nav-link">Pagos en linea</a></li>
+             </ul>
+        <a href="#" class="br-menu-link ">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-navigate-outline tx-24"></i>
+            <span class="menu-item-label">REPORTE DE NOTAS</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+    </a><!-- br-menu-link -->
+    <ul class="br-menu-sub nav flex-column">
+                   <li class="nav-item"><a title="Historial Academico Alumno" href="/frida/alumnos/historial_academico_alumno/" class="nav-link">Historial Academico Alumno</a></li>
+                   <li class="nav-item"><a title="Materias no aprobadas" href="/frida/alumnos/materias_no_aprobadas_estudiante/" class="nav-link">Materias no aprobadas</a></li>
+                   <li class="nav-item"><a title="Reporte para Solicitud de Becas" href="/frida/alumnos/ficha_acad_para_beca/" class="nav-link">Reporte para Solicitud de Becas</a></li>
+                   <li class="nav-item"><a title="Ver notas" href="notas.html" class="nav-link">Ver notas</a></li>
+             </ul>
+        <a href="#" class="br-menu-link ">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-navigate-outline tx-24"></i>
+            <span class="menu-item-label">REPORTE DE PAGOS</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+    </a><!-- br-menu-link -->
+    <ul class="br-menu-sub nav flex-column">
+                   <li class="nav-item"><a title="Extracto Oficial de Pagos" href="/frida/alumnos/estracto_oficial_pagos/" class="nav-link">Extracto Oficial de Pagos</a></li>
+                   <li class="nav-item"><a title="Ver estado de pagos por tesis" href="/frida/alumnos/extracto_pagos_tesis/" class="nav-link">Ver estado de pagos por tesis</a></li>
+             </ul>
+      </div><!-- br-sideleft-menu -->
+</div><!-- br-sideleft -->
+<div class="br-mainpanel">
+    <div class="d-sm-flex align-items-center pd-t-15 pd-sm-t-25 pd-x-20 pd-sm-x-30">
+    <i class="icon ion-ios-filing-outline tx-70 lh-0 tx-gray-800"></i>
+    <div class="pd-sm-l-20">
+      <h4 class="tx-gray-800 mg-b-5">Mensajes</h4>
+      <p class="mg-b-0">Mensajes importantes</p>
+    </div>
+  </div><!-- d-flex -->
+
+  <div class="br-pagebody">
+    <!-- this is where your contents will be added -->
+    <div class="br-section-wrapper">
+
+
+
+
+
+
+
+    
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="modal3" class="modal fade" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content tx-size-sm">
+                <div class="modal-header pd-x-20 tx-bold" id="titulo_modal">
+
+                    <h6 class="tx-14 mg-b-0 tx-uppercase tx-inverse tx-bold">Información</h6>
+                                    </div>
+                <div class="modal-body pd-20">
+                    <div class="pd-25 d-flex align-items-center">
+                        <i class="ion ion-clipboard tx-60 lh-0 tx-primary op-7"></i>
+                        <div class="mg-l-20">
+                            <p class="tx-14 tx-spacing-1 tx-mont tx-medium tx-uppercase  tx--8 mg-b-10">Encuesta
+                            </p>
+                            <p class="tx-24 tx-primary tx-lato tx-bold mg-b-2 lh-1">Encuesta de Caracterización para
+                                Estudiantes de I y II Semestre Gestión 2022</p>
+
+                        </div>
+                    </div>
+                    <div>
+                        <span class="tx-16 tx-black">El formulario estará habilitado a partir de hoy
+                            7/12/22 hasta las 23:45 del 20/12/2022.</span>
+                                            </div>
+                </div><!-- modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Ya llene el formulario</button>
+                    <a href="https://forms.office.com/r/hpdX4gyUcV" class="btn btn-primary">Ir a llenar encuesta</a>
+                </div>
+            </div>
+        </div><!-- modal-dialog -->
+    </div><!-- modal -->
+
+
+
+
+</div>
+ </div><!-- br-pagebody -->
+
+</div><!-- br-mainpanel -->
+
+
+
+<script src="jquery.js"></script>
+<script src="popper.js"></script>
+<script src="bootstrap.js"></script>
+
+<script src="perfect-scrollbar.jquery.js"></script>
+<script src="moment.js"></script>
+ <script src='fullcalendar.min.js'></script>
+<script src="jquery-ui.js"></script>
+<script src="jquery.switchButton.js"></script>
+<script src="jquery.peity.js"></script>
+<script src="highlight.pack.js"></script>
+
+<script src="/frida/_insumos/bootstrap/lib/datatables/jquery.dataTables.js"></script>
+<script src="/frida/_insumos/bootstrap/lib/datatables-responsive/dataTables.responsive.js"></script>
+<script src="/frida/_insumos/bootstrap/lib/select2/js/select2.min.js"></script>
+<script src="/frida/_insumos/bootstrap/lib/jquery.maskedinput/jquery.maskedinput.js"></script>
+<script src="/frida/_insumos/bootstrap/lib/jquery-toast-plugin/dist/jquery.toast.min.js"></script>
+
+<script src="bracket.js"></script>
+
+
+
+</body>
+</html>

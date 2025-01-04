@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universidad Salesiana de Bolivia</title>
+  <style>
+    body {
+      background-color: #213140;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      max-width: 350px;
+      width: 90%;
+    }
+
+    .logo {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #222;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #0866C6;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    a {
+        color: #5CA2AE;
+        text-decoration: none;
+        font-size: 0.9rem;
+        /*font-weight: bold;  Negrita */
+        text-align: left;  /* Alineación a la izquierda */
+        display: block;    /* Asegura que la alineación funcione correctamente */
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.2rem;
+      }
+
+      button {
+        font-size: 0.9rem;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logousb2.png" alt="Logotipo de la Universidad Salesiana de Bolivia" class="logo">
+
+    <form id="loginForm">
+      <input type="password" id="username" placeholder="Usuario" required>
+      <input type="password" id="password" placeholder="Contraseña" required>
+      <button type="submit">Ingresar al sistema</button>
+      <a href="#">Recupera tu contraseña</a>
+    </form>
+  </div>
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Evita que el formulario se envíe automáticamente
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+
+      // Validación de credenciales
+      if (username === "60739" && password === "14042972") {
+        window.location.href = "principal.html"; // Cambia a la página deseada
+      } else {
+        alert("Usuario o contraseña incorrectos. Intenta de nuevo.");
+      }
+    });
+  </script>
+</body>
+</html>
+
